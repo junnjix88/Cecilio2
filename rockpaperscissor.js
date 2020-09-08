@@ -1,12 +1,10 @@
 var winner;
 function playRound(playerSelection, computerSelection) {
-	// your code here!
-//        playerSelection = user;
-//        computerSelection = comp;
+
   let a = playerSelection.toLowerCase();
   let b =  computerSelection.toLowerCase();
   
-//        console.log(a, b);
+
         if (a === b )
         {
             var m = "were even";
@@ -60,7 +58,7 @@ function playRound(playerSelection, computerSelection) {
                 }
     }
 }
-//playRound('RocK','Paper');
+
 
  function computerPlay()
       
@@ -72,8 +70,6 @@ function playRound(playerSelection, computerSelection) {
             {
                 y = "rock";
                 console.log("Computer is "+y);
-//                console.log(rps);
-//                comp = y;
                 return y;
             }
             
@@ -81,16 +77,12 @@ function playRound(playerSelection, computerSelection) {
             {
                 y = "paper";
                console.log("Computer is "+y);
-//               console.log(rps);
-//                comp = y;
                return y;
             }
             else(rps === 3);
             {
                 y = "scissor"; 
                  console.log("Computer is "+y);
-//                 console.log(rps);
-//                comp = y;
                  return y;
                  
             }
